@@ -12,7 +12,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = "8312890704:AAFeJCLopemRJq01SM41HNeir9g9YqFvcko"
+BOT_TOKEN = "your_bot_token"
 
 class SimpleProgressHook:
     def __init__(self, message_func, download_type):
